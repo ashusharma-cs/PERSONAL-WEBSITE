@@ -4,14 +4,14 @@ let nav=document.querySelector("#navbar");
 let line1=document.getElementById("line1");
 let line2=document.getElementById("line2");
 let line3=document.getElementById("line3");
-let scrollvalue=document.getElementById("scrollvalue");
+// let scrollvalue=document.getElementById("scrollvalue");
 
 
-scrollvalue.addEventListener("click", down);
+// scrollvalue.addEventListener("click", down);
 
-function down() {
-    window.scrollBy(0,686);
-}
+// function down() {
+//     window.scrollBy(0,686);
+// }
 hold.addEventListener("click", openmenu);
 
 let i=0;
