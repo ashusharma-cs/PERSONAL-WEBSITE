@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ASHU SHARMA</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -16,6 +16,8 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -57,7 +59,7 @@
     </section>
 
     <section id="about">
-        <div class="about-wrap">
+        <div class="about-wrap" data-aos="fade-up" >
             <h1>A LITTLE BIT ABOUT ME</h1>
             <div class="me">
                 <img src="images/me1.jpg" alt="">
@@ -230,7 +232,7 @@
       </div>
 
       <div class="card-wrap">
-        <div class="card">
+        <div class="card" data-aos="fade-up">
           <div class="front one pic1">
             <div class="preview">
               <a
@@ -251,7 +253,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
           <div class="front one card2-pic1">
             <div class="preview">
               <a
@@ -271,7 +273,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
           <div class="front one card3-pic1">
             <div class="preview">
               <a
@@ -305,5 +307,10 @@
       integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

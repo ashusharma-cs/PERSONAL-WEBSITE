@@ -503,6 +503,7 @@ background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
 #projects{
     height: 100vh;
     /* min-width: 1150px; */
+    /* overflow-x: hidden; */
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
@@ -525,7 +526,7 @@ background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
 #projects .card-wrap{
     height: 40%;
     width: 100%;
-    min-width: 1150px;
+    /* min-width: 1150px; */
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-around;
