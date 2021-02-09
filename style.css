@@ -574,7 +574,7 @@ background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
     
 }
 .card .pic2{
-    background: url("/1.png");
+    background: url("/library.PNG");
     background-size: cover;
     background-position: center;
 }
