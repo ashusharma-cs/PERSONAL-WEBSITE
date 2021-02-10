@@ -23,6 +23,7 @@ function openmenu() {
         line2.style.transform="rotate(-40deg)";
         line3.style.opacity="0";
         menu.style.width="200px";
+        menu.style.right="0";
         // menu.style.display="block";
         menu.style.opacity="1";
         nav.style.marginRight="200px";
@@ -34,6 +35,7 @@ function openmenu() {
         line2.style.transform="rotate(0deg)";
         line3.style.opacity="1";
         menu.style.width="0px";
+        menu.style.right="-80px";
         // menu.style.display="block";
         menu.style.opacity="0";
         nav.style.marginRight="0px";
