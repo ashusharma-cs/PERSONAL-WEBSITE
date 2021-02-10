@@ -202,7 +202,9 @@ background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     color: white;
     border-bottom: 2px solid white;
 }
-
+.intro h1{
+    text-align: center;
+}
 
 /* section-about */
 #about{
@@ -272,6 +274,9 @@ background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     background: rgb(226, 226, 226);
     padding: 12px;
 }
+.summary h2{
+    text-align: center;
+}
 .summary .icons{
     display: flex;
     justify-content: center;
@@ -279,6 +284,9 @@ background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     /* border: 2px solid pink; */
     width: 100%;
 
+}
+.icons p{
+    text-align: center;
 }
 .icons .web,
 .icons .ar,
@@ -290,6 +298,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     /* border: 2px solid black; */
     width: 30%;
     padding: 12px;
+    margin: .1rem;
 }
 .icons .web img,
 .icons .ar img,
@@ -458,7 +467,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     height: 100vh;
     /* min-width: 1150px; */
     /* overflow-x: hidden; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -466,7 +475,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
 
 }
 #projects .info{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -481,7 +490,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     height: 40%;
     width: 100%;
     /* min-width: 1150px; */
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-around;
     align-items: center;
